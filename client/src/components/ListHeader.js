@@ -1,7 +1,7 @@
 const ListHeader = ({ listName }) => {
   return (
     <div className="list-header">
-      {listName}
+      <h1>{listName}</h1>
     </div>
   )
 }
